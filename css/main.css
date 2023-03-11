@@ -1,0 +1,86 @@
+
+/********************* IMPOSTAZIONI GENERALI *********************/
+
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+nav {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.7));
+}
+
+
+
+
+/********************* CARDS *********************/
+
+.card-text {
+    color: black;
+}
+
+.card-body {
+    background-color: #cfd0d1;
+}
+
+
+/********************* ACCORDION *********************/
+
+.accordion-button {
+    background-color: #666666;
+    color: white;
+    border-color: #858585;
+}
+
+.accordion-button:hover {
+    background-color: #858585;
+    border-color: #cfd0d1;
+}
+
+.accordion-button:focus {
+    background-color: #858585;
+    border-color: #cfd0d1;
+}
+
+.accordion-button:not(.collapsed), .accordion-button:not(.collapsed):focus  {
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px;
+    color: black;
+    background-color: #858585;
+    border-color: #cfd0d1;
+}
+
+
+/********************* HERO BANNER *********************/
+
+.hero-banner {
+    padding: 116px 0;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.7)), url(../images/sfondino.jpg) center no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+
+/********************* NON VORREI MA HO SOVRASCRITTO UNA QUERY *********************/
+
+@media (min-width: 768px) {
+    .hero-banner {
+        padding: 176px 0;
+    }
+}
+
+
